@@ -233,9 +233,9 @@ function NavComponent() {
                                       target="_blank"
                                     >
                                       {row?.title}
-                                      <p className="service-menu-text">
+                                      {/* <p className="service-menu-text">
                                         <b>{row?.url}</b>
-                                      </p>
+                                      </p> */}
                                       <p className="service-menu-text">
                                         {row?.description}
                                       </p>
