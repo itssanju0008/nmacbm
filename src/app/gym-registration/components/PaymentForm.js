@@ -4,7 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./payments.css";
 import axios from "axios";
-import { APIBASE } from "@/Api/apiConfig"; 
+import { APIBASE } from "@/Api/apiConfig";
 const initialState = {
   patient_first_name: "",
   patient_last_name: "",
@@ -97,16 +97,13 @@ const PaymentForm = () => {
     <>
       <ToastContainer />
       <div className="payment_form">
-        <h3 className="payments-heading mb-3"> Payment Details</h3>
-        <div class="title-underline"></div>
+        <h3 className="payment-heading mb-3 text-center"> Payment Details</h3>
         <div className="">
           <form onSubmit={(e) => handleSubmit(e)}>
-            <p className="text-center fw-bold bg-secondary text-white py-1">
-              Patient Detail
-            </p>
+            <p className="text-left fw-bold fa-18 py-1">Patient Detail</p>
             <div className="mb-3 row">
-              <div className="col-lg-4 col-md-6 col-sm-12">
-                <label className="form-label">Patient First Name</label>
+              <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
+                <label className="form-label mb-2">Patient First Name</label>
                 <input
                   type="text"
                   required
@@ -118,7 +115,7 @@ const PaymentForm = () => {
                   value={state?.patient_first_name}
                 />
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
                 <label className="form-label">Patient Last Name</label>
                 <input
                   type="text"
@@ -130,7 +127,7 @@ const PaymentForm = () => {
                   }
                 />
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
                 <label className="form-label">Date of Birth</label>
                 <input
                   type="date"
@@ -141,9 +138,8 @@ const PaymentForm = () => {
                   value={state?.patient_dob}
                 />
               </div>
-         
-         
-              <div className="col-lg-4 col-md-6 col-sm-12">
+
+              <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
                 <label className="form-label">Email</label>
                 <input
                   type="email"
@@ -156,7 +152,7 @@ const PaymentForm = () => {
                   value={state?.patient_email}
                 />
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
                 <label className="form-label">Phone Number</label>
                 <input
                   type="number"
@@ -171,7 +167,7 @@ const PaymentForm = () => {
                   value={state?.patient_phone}
                 />
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
                 <label className="form-label"> Address</label>
                 <input
                   type="text"
@@ -184,8 +180,7 @@ const PaymentForm = () => {
                   value={state?.patient_address}
                 />
               </div>
-     
-         
+
               <div className="col-lg-3 col-md-6 col-sm-12">
                 <label className="form-label">Country</label>
                 <select
@@ -210,8 +205,10 @@ const PaymentForm = () => {
                   }
                 >
                   <option value="">Select</option>
-                  {cities?.map((ele,index) => (
-                    <option value={ele} key={index}>{ele}</option>
+                  {cities?.map((ele, index) => (
+                    <option value={ele} key={index}>
+                      {ele}
+                    </option>
                   ))}
                 </select>
               </div>
@@ -242,10 +239,8 @@ const PaymentForm = () => {
                   value={state?.patient_zipcode}
                 />
               </div>
-              </div>
-            <p className="text-center fw-bold bg-secondary text-white py-1">
-              Card Detail
-            </p>
+            </div>
+            <p className="text-left fw-bold fa-18 py-1">Card Detail</p>
             <div className="mb-3 row">
               <div className="col-lg-3 col-md-6 col-sm-12">
                 <label className="form-label">Card Number</label>
@@ -315,9 +310,7 @@ const PaymentForm = () => {
                 </select>
               </div>
             </div>
-            <p className="text-center fw-bold bg-secondary text-white py-1">
-              Service Detail
-            </p>
+            <p className="text-left fw-bold fa-18 py-1">Service Detail</p>
             <div className="mb-3 row">
               <div className="col-lg-3 col-md-6 col-sm-12">
                 <label className="form-label"> Invoice Number</label>
@@ -371,9 +364,7 @@ const PaymentForm = () => {
                 />
               </div>
             </div>
-            <p className="text-center fw-bold bg-secondary text-white py-1">
-              Amount
-            </p>
+            <p className="text-left fw-bold fa-18 py-1">Amount</p>
             <div className="mb-3">
               <label className="form-label">
                 <b>Amount</b>{" "}
@@ -401,9 +392,12 @@ const PaymentForm = () => {
               />
             </div>
             <div className="mt-3 text-center">
-              <button type="submit" className="btn btn-pay" disabled={saving}>
+              <button className="btn btn-skyblue-fill" disabled={saving} type="submit">
                 {saving ? "Processing" : "Pay"} ${state?.grand_total}
               </button>
+              {/* <button type="submit" className="btn btn-pay" disabled={saving}>
+                {saving ? "Processing" : "Pay"} ${state?.grand_total}
+              </button> */}
             </div>
           </form>
         </div>

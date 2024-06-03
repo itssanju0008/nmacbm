@@ -16,11 +16,14 @@
     box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%) !important;
 }
 
+.fa-18{
+    font-size: 18px;
+}
 
 .payment_form {
     position: relative;
     border-radius: 2px;
-    box-shadow: 6px 11px 24px 0 rgba(23,31,37,0.12);
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, .04);
     background: #fff;
     padding: 25px;
 }
@@ -104,11 +107,11 @@
     font-size: 48px;
     color: #333;
     line-height: 40px;
-    font-family: 'Poppins';
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 40px;
     font-weight: 700;
+    font-family: Josefin Slab;
 }
 @media screen and (max-width:1200px) {
 
