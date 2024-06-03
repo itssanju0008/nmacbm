@@ -1,0 +1,51 @@
+.service-card {
+    border-radius: 14px;
+    background-color: #fff6f6;
+    padding: 15px 40px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-card p {
+    margin: 0;
+    font-weight: 400;
+    color: #333;
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 24px;
+}
+
+.service-card:hover {
+    background-color: #2ca9e0;
+    color:#fff;
+}
+
+.service-card:hover p{
+    color:#fff;
+}
+
+
+.service-Common-heading {
+    font-size: 36px;
+    font-family: 'Josefin Slab';
+    text-align: center;
+    font-weight: 600;
+    color: #333;
+    line-height: 26px;
+}
+
+@media screen and (max-width: 1200px) {
+    .service-Common-heading {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    }
+    

@@ -1,0 +1,318 @@
+.footer-heading {
+    color: #000;
+    text-align: center;
+    font-family: Josefin Slab;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline > li {
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family:poppins;
+    text-align:left;
+}
+
+.list-inline.main-footer li a {
+  color: #666;
+  font-size: 14px;
+  padding: 0px;
+  text-decoration: none;
+  line-height: 30px;
+  transition:all 0.3s linear;
+}
+
+.list-inline.main-footer li:hover a {
+  color: #298bba;
+  padding-left:5px;
+  font-weight:500;
+}
+
+.quick-liks{
+  display: flex;
+  justify-content: start;
+  gap: 80px;
+
+}
+
+/* newsletter-form */
+
+.special-form::placeholder {
+  color: #298bba !important; 
+}
+
+.special-form::-ms-input-placeholder {
+  color: #298bba !important; 
+}
+.newsletter-form {
+  background: #fff6f6;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+form.newsletter-form input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border-bottom: 3px solid #298bba !important;
+    float: left;
+    background: #fff6f600 !important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    transition:all 0.3s linear;
+    padding-left:0 !important;
+  }
+  
+  .form-control.special-form:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #ffffff08 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(178 178 178 / 0%) !important;
+    border-bottom: 3px solid #298bba !important;
+}
+
+.newsletters {
+  width: 95%;
+}
+
+  /* form.newsletter-form button {
+    width: 25%;
+    padding: 10px;
+    background: #2ca8e0;
+    color: #fff;
+    font-size: 17px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius:4px;
+  } */
+  
+  form.newsletter-form button:hover {
+    background: #0b7dda;
+  }
+  
+  form.newsletter-form::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  :focus-visible {
+    outline: none;
+}
+
+.newsletters h4 , .follow-us h4 , .contact-us h4{
+    font-family: 'Poppins';
+    color: #333;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom:15px;
+}
+
+.newsletters p , .follow-us p , .contact-us p{
+    font-family: 'Poppins';
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* follow us */
+
+.follow-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    margin:0;
+}
+
+.follow-list li a{
+  text-decoration:none
+}
+
+.follow-us {
+    text-align: left;
+}
+
+.copyright-text{
+    font-size:14px;
+    color:#666;
+    line-height:20px;
+}
+
+.designed-by {
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #858585;
+  font-weight: 600;
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+img.footerimg {
+  width: 20px;
+  position: relative;
+  top: 3px;
+}
+
+.designdot-link {
+  background: url('/all/designdot.png') no-repeat scroll left top;
+  width: 72px;
+  height: 17px;
+  display: inline-block;
+  float: none;
+  margin-left: 5px;
+  line-height: 0;
+  transition: 0.3s;
+  margin-top: 0;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.designdot-link:hover {
+  background: url('/all/designdot.png') no-repeat scroll left bottom;
+  width: 72px;
+  height: 17px;
+  display: inline-block;
+}
+
+footer {
+  border-top: 1px solid #c8c8c852;
+}
+
+.follow-list li a svg {
+  font-size: 30px;
+  color: #666;
+}
+.facebook{
+  color:#006cc1 !important;
+}
+
+.youtube{
+  color:#d41c1c !important;
+}
+
+.insta{
+  color:#b02769 !important;
+}
+
+.follow-list li {
+  transition:all 0.3s linear
+  }
+  
+.follow-list li:hover {
+transform:scale(1.3);
+}
+
+
+
+@media screen and (max-width: 1250px) {
+  .footer-heading {
+    font-size: 20px;
+  }
+  
+.quick-liks{
+  gap: 30px;
+
+}
+}
+
+@media screen and (max-width: 1100px) {
+.quick-liks {
+  justify-content: space-between;
+}
+}
+
+@media screen and (max-width: 992px) {
+.newsletter-form {
+margin-bottom:1rem;
+}
+
+.newsletters {
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 770px) {
+.footer-heading {
+  font-size: 20px;
+}
+
+.list-inline.main-footer li a {
+  font-size: 12px;
+}
+.copyright-text {
+  font-size: 12px;
+ 
+}
+}
+
+@media screen and (max-width: 768px) {
+
+  .newsletters h4, .follow-us h4, .contact-us h4 {
+    font-size: 16px;
+    line-height: 22px;
+    text-align:center;
+  }
+
+  .contact-us{
+    text-align:center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-heading {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .list-inline.main-footer li a {
+    font-size: 12px;
+  }
+
+  .newsletters p, .follow-us p, .contact-us p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .follow-us {
+    margin-top: 20px;
+  }
+  
+  .follow-list img {
+    width: 35px;
+    height: 35px;
+}
+/* .designed-by {
+  margin-bottom: 75px;
+} */
+}
+
+@media screen and (max-width: 400px) {
+
+  .newsletters h4, .follow-us h4, .contact-us h4 {
+    font-size: 16px;
+    line-height: 22px;
+    text-align:center;
+  }
+
+  .copyright-text {
+    font-size: 12px;
+  }
+
+}
+

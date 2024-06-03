@@ -1,0 +1,124 @@
+.medical-portal p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #666;
+    text-align: justify;
+}
+
+.medical__box {
+    border-radius: 14px;
+    background-color: #fff6f6;
+    padding: 35px 40px;
+    overflow: hidden;
+    height: 360px;
+    margin-bottom: 25px;
+    transition: all 0.3s linear;
+}
+
+.medical__box:hover {
+    background-color: #2ca8e0;
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    transition: all .7s;
+}
+
+
+
+.medical__box:hover .medical-fe-list li{
+    color:#fff
+}
+
+.medical__box:hover .check-icon{
+    fill: #fff;
+}
+
+.medical__box:hover .box-top h4 {
+    color: #fff;
+}
+
+.medical__box:hover .medical__box-middle {
+    border-top: 1px solid #fff;
+}
+
+
+.medical__box-middle {
+    border-top: 1px solid #2ca8e04f;
+    margin-top: 20px;
+    padding-top: 38px;
+}
+
+.box-top h4 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #333;
+    font-family:poppins;
+    transition: all 0.3s linear;
+}
+
+.medical-fe-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.medical-fe-list li {
+    font-size:16px;
+    color:#666;
+    line-height:25px;
+    padding:6px 0px;
+    font-weight:300;
+    position: relative;
+    padding-left: 30px;
+}
+
+.check-icon{
+    display: inline-block;
+    height: 2em;
+    stroke-width: 0;
+    stroke: currentColor;
+}
+
+.medical-fe-list li .check-icon {
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: auto;
+    fill: #2ca9e0;
+}
+
+@media screen and (max-width: 770px) {
+    .medical__box {
+        padding: 20px;
+   }
+
+   .medical-portal p {
+    font-size: 14px;
+}
+
+
+
+   .medical-fe-list li {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.medical__box-middle {
+    padding-top: 20px;
+}
+.medical__box {
+    height: 320px;
+}
+
+.box-top h4 {
+    font-size: 18px;
+}
+}
+
+@media screen and (max-width: 576px) {
+    .medical__box {
+        padding: 20px;
+        height: auto;
+    }
+}

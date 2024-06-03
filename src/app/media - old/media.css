@@ -1,0 +1,38 @@
+.media-content p {
+    position: relative;
+    color: #666;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+.media-content{
+  background: #fff6f6;
+  padding:15px 35px;
+}
+
+.media-header{
+    padding: 0px 0 0px 35px!important;
+}
+
+.media-header::befor {
+  font-size: 36px;
+}
+
+.media-header::after {
+  content: '+';
+  margin-left: 5px;
+  background: #f9e2e2;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #333;
+  border-radius: 0 4px 4px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  padding:30px;
+  font-weight: 300;
+}

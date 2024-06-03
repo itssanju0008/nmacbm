@@ -1,0 +1,128 @@
+
+
+.testimonial-deatils {
+    text-align: right;
+    position: relative;
+    z-index: 1;
+}
+.testi-heading {
+    color: #333;
+    font-family: poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.testimonial-deatils p , .testimonial-content 
+p {
+    color: #333;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align:right;
+}
+
+.testimonial-content p {
+    font-weight: 400;
+    color: #777;
+}
+.reviews-carousel:before {
+    content: '„';
+    position: absolute;
+    right: 0px;
+    top: -878px;
+    font-size: 700px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.designation {
+    font-style: italic;
+}
+
+.swiper-testimonial-arrow {
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    margin-top: 25px;
+    padding-bottom:4.3rem;
+}
+
+.swiper-button-prev1 , .swiper-button-next1 {
+    border-radius: 50%;
+    border: 1px solid #d4d4d4ab;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:all 0.3s linear;
+}
+
+.swiper-button-prev1:hover , .swiper-button-next1:hover {
+    background: #18b0f4;
+}
+
+.swiper-button-prev1:hover svg , .swiper-button-next1:hover svg {
+    color: #fff;
+}
+
+.testi-icon-blue{
+    font-size:16px;
+    color: #18b0f4;
+    cursor: pointer;
+}
+
+.bg-dusky {
+    background: #fff6f6;
+}
+
+@media screen and (max-width: 1500px) {
+
+.testimonial-deatils p, .testimonial-content p {
+    font-size: 14px;
+}
+
+}
+
+@media screen and (max-width: 992px) {
+    .testi-img img {
+        display: none;
+    }
+
+    .testimonial-deatils p, .testimonial-content p {
+        text-align: left;
+    }
+
+    .testimonial-deatils {
+        text-align: left;
+    }
+
+
+}
+
+@media screen and (max-width: 770px) {
+
+.testi-heading {
+    font-size: 20px;
+}
+.testimonial-deatils p, .testimonial-content p {
+    font-size: 14px;
+}
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .swiper-testimonial-arrow {
+        padding-bottom: 2.3rem;
+    }
+}

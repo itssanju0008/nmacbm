@@ -1,0 +1,125 @@
+.course-card {
+border: 2px solid #0087a0;
+color: #0c5460;
+background-color: #d1ecf14d;
+border-radius: 4px;
+overflow:hidden;
+}
+
+.course-inner {
+    transition:all 03s linear;
+}
+
+.course-inner:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.custome-badge{
+    color: #fff;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff !important;
+    font-size: 14px;
+    z-index: 1;
+}
+
+.course-row {
+    column-count: 4;
+    gap: 25px;
+}
+
+.list h4{
+    font-size: 18px;
+    color: #333;
+    line-height: 25px;
+    font-weight: 500;
+    font-family:poppins;
+}
+
+.contact-info {
+    display: flex;
+    gap: 100px;
+    border: 1px solid #eee;
+    width: fit-content;
+    padding: 20px;
+}
+
+.inner-details h3 {
+    font-size:18px;
+    font-family: poppins;
+    color: #333;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.inner-details h4 {
+    font-size: 16px !important;
+    line-height: 20px;
+    color: #666;
+}
+
+.course-card p {
+    font-size: 16px;
+    color: #666;
+    font-family: 'Poppins';
+    line-height: 24px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1300px) {
+
+.course-row {
+    column-count: 3;
+    gap: 25px;
+}
+
+}
+
+@media screen and (max-width: 770px) {
+
+    .course-row {
+        column-count: 2;
+        gap: 25px;
+    }
+    .service-Common-heading {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .contact-info {
+        gap: 50px;
+
+    }
+    .service-para {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .inner-details h4 {
+        font-size: 14px !important;
+    }
+
+    .course-card p {
+        font-size: 14px !important;
+        text-align: left !important;
+    }
+    
+    }
+
+
+    @media screen and (max-width: 576px) {
+
+        .course-row {
+            column-count: 1;
+            gap: 0px;
+        }
+
+        .contact-info {
+            display: block;
+        }
+        
+        }

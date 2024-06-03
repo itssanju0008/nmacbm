@@ -1,0 +1,78 @@
+.sign-up ::placeholder{
+    color: #237da9 !important;
+    font-weight:500 !important;
+  }
+
+.sign-up {
+    background: #0089c5c4;
+    padding: 30px 60px 30px 60px;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 6px;
+    position: relative;
+    top: -60px;
+    z-index: 99;
+    backdrop-filter: blur(12px);
+}
+
+.signup-info{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-auto {
+    flex: auto;
+}
+
+
+.btn-signup {
+    border-radius: 50px;
+    border: 3px solid #237da9;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 10px 35px;
+    transition: all 0.3s linear;
+    background: #1694ca;
+}
+
+.text-sm{
+    font-size:12px;
+    font-family:poppins;
+    color:#fff;
+}
+
+.btn-signup:hover {
+    background: #fff;
+    color: #34b0e7;
+    border: 3px solid #237da9;
+}
+
+@media screen and (max-width: 1000px) {
+
+.sign-up {
+    top: 20px;
+    margin-bottom: 23px;
+    padding:25px;
+}
+
+
+.signup-info {
+    display: block;
+}
+}
+
+
+@media screen and (max-width: 770px) {
+
+    .sign-up {
+        padding:20px;
+    }
+
+    }

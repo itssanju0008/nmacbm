@@ -1,0 +1,8 @@
+.blog-card {
+    border: 1px solid #55ade05c !important;
+}
+
+.blog-card:hover {
+    border: 1px solid #55ade0 !important;
+   
+}

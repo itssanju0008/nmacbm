@@ -1,0 +1,14 @@
+
+
+
+.profile-border {
+    border: 4px outset #ade3ff !important;
+    padding: 4px !important;
+    border-radius: 4px !important;
+}
+
+.hair_restor{
+    padding: 40px 30px;
+    background: #fff6f6;
+    border-radius: 4px;
+}

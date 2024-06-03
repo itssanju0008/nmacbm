@@ -1,0 +1,76 @@
+.patient-info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* .patient-info-list li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .patient-info-list li {
+    font-size: 16px;
+    line-height: 24px;
+    color: #666;
+    font-family: poppins;
+    font-weight: 300;
+    padding: 4px 0;
+  } */
+  
+  .arrow-size {
+    font-size: 20px;
+  }
+
+  .arrow-size {
+    font-size: 20px;
+  }
+
+  .laboratory-service p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #666;
+    font-weight: 300;
+    text-align: justify;
+    font-family: poppins;
+}
+
+.read-more {
+    color: #2ca9e0;
+    font-size: 14px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    display: block;
+    font-weight: 500;
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-family: Poppins;
+    text-decoration: none;
+}
+
+.read-more:after {
+    background-color: #2ca9e0;
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all .3s ease-in-out;
+}
+
+.read-more:hover:after {
+    right: 0;
+    left: auto;
+    width: 0;
+}
+
+@media screen and (max-width: 770px) {
+
+  .laboratory-service p {
+    font-size: 14px;
+  }
+  }
+

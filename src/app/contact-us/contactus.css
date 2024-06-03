@@ -1,0 +1,114 @@
+
+
+.mbottom-4{
+  margin-bottom:1.8rem;
+}
+
+.btn-skyblue-fill {
+    border-radius: 110px;
+    border: 3px solid #18b0f4;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    transition: all 0.3s linear;
+    background:#18b0f4;
+  }
+  
+  .btn-skyblue-fill:hover {
+    background:#14a1e1;
+    color:#fff;
+  }
+  
+  .form-text{
+    font-size:14px;
+    color:#666;
+    line-height:20px;
+    font-weight:300;
+  }
+
+  .h-decor {
+    height: 3px;
+    width: 53px;
+    background-color: #18b0f4;
+    margin-top:15px;
+}
+
+.layout-weightloss .title-wrap + * {
+    margin-top: 25px;
+}
+.icn-list-lg {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 27px;
+}
+
+.icn-list-lg li {
+    font-size: 15px;
+    color: #666;
+    line-height: 22px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.map-icon{
+    position: absolute;
+    left: 0;
+    top: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#18b0f4;
+}
+
+.contact-info h4 {
+    font-size: 18px;
+    color: #333;
+    line-height: 20px;
+    font-family: 'Poppins';
+}
+
+.c_custom_heading {
+    font-size: 18px;
+    color: #666;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+
+.post-form {
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 8px 0 0 8px;
+    padding: 0 20px 20px 20px;
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+    color: #666;
+    line-height: 24px;
+    font-weight:300;
+}
+
+@media screen and (max-width: 1190px) {
+.contact-info p {
+    font-size: 14px;
+}
+
+.h-decor {
+    height: 2px;
+    margin-top: 10px;
+}
+.contact-info h4 {
+    font-size: 16px;
+}
+
+.icn-list-lg li {
+    font-size: 14px;
+}
+
+}

@@ -1,0 +1,137 @@
+
+
+.medical__box {
+    padding: 35px 40px;
+    overflow: hidden;
+    height: 225px;
+    margin-bottom: 25px;
+    transition: all 0.3s linear;
+}
+
+.medical__box:nth-child(1) {
+    background-color: #0777ab;
+}
+
+.medical__box:nth-child(2) {
+    background-color: #188ec4;
+}
+
+.medical__box:nth-child(3) {
+    background-color: #25a6e1;
+}
+
+.medical__box:nth-child(4) {
+    background-color: #46bdf4;
+}
+
+
+.medical__box:hover {
+    background-color: #2ca8e0 !important;
+}
+
+.box-top h4 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    font-family: poppins;
+    transition: all 0.3s linear;
+}
+
+.medical__box-middle p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #fff;
+    text-align: justify;
+    margin-bottom:5px;
+}
+
+.medical__box-middle h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #fff;
+    text-align: justify;
+    margin-bottom:5px;
+}
+
+
+.medical__box-middle {
+    border-top: 1px solid #fff;
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
+.medical__box:hover .medical__box-middle {
+    border-top: 1px solid #fff;
+}
+
+.medical__box:hover .box-top h4 {
+    color: #fff;
+}
+
+.medical__box:hover .medical__box-middle p, .medical__box:hover .medical__box-middle h4  {
+    color: #fff;
+}
+
+.salonb-info h3 {
+    font-size: 24px;
+    color: #333;
+    font-family: poppins;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1400px) {
+    .box-top h4 {
+        font-size: 18px;
+        line-height: 24px;
+        color: #fff;
+        font-family: poppins;
+        transition: all 0.3s linear;
+    }
+    
+    .medical__box-middle p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        color: #fff;
+        text-align: justify;
+        margin-bottom:5px;
+    }
+    
+    .medical__box-middle h4 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #fff;
+        text-align: justify;
+        margin-bottom:5px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+
+  .medical__box {
+    padding: 15px 20px;
+    height: 250px;
+}
+  }
+
+  @media screen and (max-width: 900px) {
+
+    .medical__box-middle p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: left;
+    }
+    .medical__box-middle h4 {
+        font-size: 15px;
+        line-height: 22px;
+        text-align: left;
+    }
+
+    .box-top h4 {
+        font-size: 16px;
+    }
+ }

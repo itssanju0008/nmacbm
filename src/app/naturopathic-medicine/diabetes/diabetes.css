@@ -1,0 +1,87 @@
+.diabetes-img img {
+    border-radius: 3px;
+}
+
+.diabetes-img {
+border: 4px outset #ededed !important;
+padding: 4px !important;
+border-radius: 4px !important;
+}
+
+
+.course-card {
+    border: 3px solid #b4e8ff;
+    padding: 10px;
+    border-radius: 4px;
+    position:relative;
+    transition:all 0.3s linear;
+    background:#fff;
+}
+
+.course-card:hover{
+    border: 3px solid #9fe148;
+}
+
+.course-card:hover .course-icon{
+    background: #9fe148;
+}
+
+.course-icon {
+    position: absolute;
+    margin: 0 auto;
+    top: -42px;
+    margin: 0 auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    background: #b4e8ff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+    transition:all 0.3s linear;
+
+}
+
+.course-content {
+    margin-top: 65px;
+    height: 160px;
+}
+
+.course-content h3 {
+    font-size: 18px;
+    font-family: poppins;
+    color: #333;
+    font-weight: 500;
+}
+
+.course-content p {
+    font-size: 14px;
+    font-family: poppins;
+    color: #666;
+    font-weight: 300;
+}
+
+.payment {
+    border: 4px solid #18b0f4;
+    margin: 25px 0;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.payment h2{
+    font-size: 36px;
+    text-align: center;
+    color: #8cc640;;
+    font-family: poppins;
+    line-height: 24px;
+}
+
+
+.payment h3{
+    font-size: 30px;
+    text-align: center;
+    color: #333;;
+    font-family: poppins;
+    line-height: 24px;
+}

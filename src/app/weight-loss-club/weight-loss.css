@@ -1,0 +1,299 @@
+.weightloss-common-title {
+    color: #000;
+    font-family: Josefin Slab;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.service-nav-item{
+        margin: 0 25px 0 0 !important;
+}
+
+.nav-pills .btn-book.active, .nav-pills .show>.btn-book , .nav-pills .btn-book:hover {
+    background-color: #8dc740 !important;
+    color:#fff !important;
+}
+
+.btn-skyblue-fill {
+    border-radius: 110px;
+    border: 3px solid #18b0f4;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    transition: all 0.3s linear;
+    background:#18b0f4;
+  }
+  
+  .btn-skyblue-fill:hover {
+    background:#007fb9;
+    color:#fff;
+  }
+
+  .weight-loss-img  {
+    border: 8px outset #2ca8e0;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.text-blue {
+    color: #18b0f4;
+}
+
+.weight-loss-bg {
+    padding: 40px 30px;
+    background: #fff6f6;
+    border-radius: 4px;
+}
+
+
+
+/* B Lean Weight Loss */
+.bg-darkblue {
+    text-align: center;
+    color: #fff;
+}
+
+.bg-darkblue tr td{
+    text-align: center;
+    color: #fff;
+    background:#2ca7df;
+}
+
+.bg-lightblue{
+    background: #dbf4ff6b;
+}
+
+.point {
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    color: #333;
+    padding: 10px 0 3px 10px;
+    border-bottom: 1px solid #2ca7df2e;
+    margin: 0px;
+    padding: 12px;
+    width: 100%;
+}
+
+.iconno {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136%;
+    color: #fff;
+    border-bottom: 1px solid #ebebeb5c;
+    margin: 0px;
+    text-align: center;
+    background: #2ca7df;
+    padding: 12px;
+}
+
+.iconno2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136%;
+    color: #fff;
+    padding: 12px;
+    border-bottom: 1px solid #ebebeb5c;
+    margin: 0px;
+    text-align: center;
+    background: #178fc6;
+}
+
+.iconno3 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136%;
+    color: #fff;
+    padding: 12px;
+    border-bottom: 1px solid #ebebeb5c;
+    margin: 0px;
+    text-align: center;
+}
+
+.ptitle {
+    font-family: Josefin Slab;
+    font-weight: 600;
+    font-size: 28px;
+    color: #333;
+    padding: 12px;
+}
+
+.most-popular {
+    background: #178fc6;
+    text-align: center;
+    color: #fff;
+}
+
+.bg-prime {
+    background: #077bb0;
+    text-align: center;
+    color: #fff;
+}
+
+.bg-darkblue h4 , .most-popular h4 , .bg-prime h4{
+    font-family: Josefin Slab;
+    font-weight: 600;
+    padding-top:30px;
+}
+
+.fw-600{
+    font-weight:600;
+}
+
+/* hcg jump */
+
+.patient-info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* .patient-info-list li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .patient-info-list li {
+    font-size: 16px;
+    line-height: 24px;
+    color: #666;
+    font-family: poppins;
+    font-weight: 300;
+    padding: 4px 0;
+  } */
+  
+  .arrow-size {
+    font-size: 20px;
+  }
+
+  .hcg-jump p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #666;
+    font-weight: 300;
+    text-align: justify;
+    font-family: poppins;
+
+}
+
+.hcg-info p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #666;
+    font-weight: 300;
+    text-align: justify;
+    font-family: poppins;
+    margin-bottom:5px;
+}
+.hcg-info h4 {
+    font-size: 20px;
+    color: #333;
+    line-height: 26px;
+    font-family: poppins;
+}
+
+/* access gym */
+
+.access-gym-info h2 {
+    text-align: center;
+    color: #333;
+    line-height: 40px;
+    font-family: 'Poppins';
+    font-size:36px;
+}
+
+.trainer-name {
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    line-height: 24px;
+    font-weight:500;
+    font-family: 'Poppins';
+    margin-bottom:0;
+}
+
+.trainer-designation {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.trainer-profile {
+    background: #fff5f5;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 5px;
+    transition:all 0.3s linear;
+}
+
+.trainer-profile:hover{
+    background: #e4f7ff; 
+} 
+
+.bleanwidth {
+    width: 1100px;
+}
+@media screen and (max-width: 1200px) {
+    .ptitle {
+    font-size: 18px;
+    color: #333;
+    }
+
+    .point {
+        font-size: 14px;
+    }
+
+
+    .access-gym-info h2 {
+        line-height: 33px;
+        font-size:24px;
+    }
+    .weightloss-common-title {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .service-nav-item{
+        margin: 0 15px 15px 0 !important;
+    }
+
+    .hcg-jump p {
+        font-size: 14px;    
+    }
+    .hcg-info h4 {
+        font-size: 16px;
+    }
+
+    .access-gym-info h2 {
+        font-size:18px;
+        line-height: 33px;
+    }
+
+    .weightloss-common-title {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    .weight-loss-bg {
+        padding: 20px 20px;
+    }
+    
+}

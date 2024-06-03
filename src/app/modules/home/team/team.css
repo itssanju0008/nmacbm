@@ -1,0 +1,145 @@
+.our-team {
+    text-align: left;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+  }
+  .pointer{
+    cursor: pointer;
+
+  }
+.read-more{
+  color: #2ca8e0;
+}
+  .our-team .pic {
+    position: relative;
+    text-align: left;
+    height:230px;
+  }
+
+  .our-team .pic img {
+    height: auto;
+    transition: all 0.3s ease 0s;
+    width: 85%;
+    height: inherit;
+    object-fit: cover;
+    object-position: center;
+}
+
+  /* .our-team:hover .pic img {
+    width: 100%;
+    height: auto;
+    z-index:2;
+    border-radius: 10px 10px 0px 0px;
+
+  } */
+ 
+  .our-team .social {
+    width: 15%;
+    height: 70%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    transition: all 0.5s ease 0s;
+    border-radius: 0px 10px 0px 0px;
+    background: #FFF6F6;
+}
+
+  .our-team:hover .social {
+    opacity:1;
+    background: #FFF6F6;
+    height: 100%;
+  }
+
+  .our-team .social li {
+    display: block;
+  }
+
+  .our-team .social li a {
+    display: block;
+    padding: 5px 0;
+    font-size: 18px;
+    color: #999797;
+    transition: all 0.5s ease 0s;
+    text-align:center;
+  }
+
+  .our-team .social li a:hover {
+    color: #2ca8e0;
+  }
+
+  .our-team .team-content {
+    padding: 20px;
+    background: #FFF6F6;
+}
+
+  .our-team .title {
+    color: #333;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .our-team .post {
+    color: #333;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+.team-heading {
+    color: #333;
+    font-family: poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-underline-offset: 13px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #d9d9d9;
+}
+
+
+.swiper-team-arrow{
+  display: flex;
+  gap: 15px;
+  justify-content: end;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1500px) {
+  
+  .our-team .title {
+    font-size: 14px;
+  }
+
+  .team-heading {
+    font-size: 20px;
+  }
+
+}
+
+  @media only screen and (max-width: 1260px) {
+    .team-heading {
+      font-size: 18px;
+    }
+  }
+
+
+  
+  @media only screen and (max-width: 1060px) {
+    .team-heading {
+      font-size: 16px;
+    }
+  }

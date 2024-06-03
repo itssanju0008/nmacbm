@@ -1,0 +1,33 @@
+.form-bg {
+    background: #fff6f6;
+    padding: 20px;
+}
+
+label  {
+    font-size: 14px;
+    color: #333;
+    font-weight: 550;
+    line-height: 23px;
+}
+
+.checklist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 15px;
+}
+
+.form-bg .form-control {
+    background: #fff !important;
+}
+
+@media screen and (max-width: 770px) {
+.checklist {
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .checklist {
+        grid-template-columns: 1fr 
+    }
+    }

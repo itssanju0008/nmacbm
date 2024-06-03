@@ -1,0 +1,12 @@
+.deals-box {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background:#03a9f4;
+    padding: 2px 15px;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: poppins;
+    color:#fff;
+}

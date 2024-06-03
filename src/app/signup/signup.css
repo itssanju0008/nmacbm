@@ -1,0 +1,108 @@
+.signup-heading{
+    text-align: center;
+    font-family: 'Josefin Slab';
+    font-weight: 500;
+    color: #8cc640;
+    font-size: 65px;
+    line-height: 70px;
+}
+.signup-sub-heading {
+    color: #fff;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: poppins;
+    font-size: 24px;
+    text-align: center;
+    background: #8cc640;
+    padding: 10px;
+    border-radius: 4px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.form-check-label {
+    color: #666;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.post-form {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #f0f0f0;
+    padding: 30px;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    background: #fff;
+}
+
+
+textarea.form-control {
+    min-height: calc(1.5em + 0.75rem + calc(var(--bs-border-width) * 2));
+}
+
+.form-control {
+    background-color: #f5f5f5 !important;
+    border: var(--bs-border-width) solid #f5f5f5 !important;
+}
+
+@media screen and (max-width: 1400px) {
+    .signup-heading {
+        font-size: 55px;
+        line-height: 50px;
+    }
+
+    .post-form {
+        width: 90%;
+    }
+
+    .signup-sub-heading {
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 1180px) {
+.post-form {
+    width: 100%;
+}
+.signup-heading {
+    font-size: 50px;
+    line-height: 58px;
+}
+
+.signup-sub-heading {
+    font-size: 18px;
+}
+}
+
+@media screen and (max-width: 800px) {
+    .signup-heading {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .post-form{
+       padding:20px;
+       margin-top:30px;
+    }
+
+    .form-check-label {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+.signup-heading {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.signup-sub-heading {
+    font-size: 16px;
+    line-height:24px;
+}
+}

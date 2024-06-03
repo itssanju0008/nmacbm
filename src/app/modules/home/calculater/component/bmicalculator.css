@@ -1,0 +1,255 @@
+.h-sub-lined:before {
+    position: relative;
+    top: -5px;
+    display: inline-block;
+    margin-right: 10px;
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: #2ca8e0;
+}
+
+.bmi-form {
+    padding: 38px 46px;
+    background-color: #ffffff;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+
+.bmi-form .unit-selector {
+    margin-bottom: 15px;
+}
+
+[type="radio"]:checked + label, [type="radio"]:not(:checked) + label {
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    display: inline-block;
+    color: #444444;
+}
+
+.bmi-form .form-group .col input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #424242;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    font-size: 14px;
+    font-weight: 400;
+    min-height: 41px;
+    touch-action: manipulation;
+}
+
+.bmi-form .form-group .col .input-unit {
+    margin-left: 7px;
+    font-size: 16px;
+    color: #444444;
+    word-break: normal;
+    text-wrap: nowrap;
+}
+
+.bmi-form-table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px -4px 0;
+    text-align: center;
+}
+.bmi-form-table > *:nth-child(1) {
+    background-color: #18b0f4;
+}
+
+.bmi-form-table > *:nth-child(2) {
+    background-color: #14a1e1;
+}
+
+.bmi-form-table > *:nth-child(3){
+    background-color: #0d96d3;
+}
+
+.bmi-form-table > *:nth-child(4) {
+    background-color: #8cc641;
+}
+
+.bmi-form-table > * .bmi-form-table-info {
+    font-size: 12px;
+    line-height: 1.1em;
+    font-weight: 400;
+}
+
+.bmi-form-table > * {
+    display: flex;
+    flex: 25%;
+    max-width: calc(25% - 8px);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 10px;
+    margin: 0 4px;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.bmi-form-table br {
+    display: none;
+}
+
+.bmi-form .form-group .col {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.btn-skyblue-fill {
+    border-radius: 110px;
+    border: 3px solid #18b0f4;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 12px 60px;
+    transition: all 0.3s linear;
+    background:#18b0f4;
+}
+
+.btn-skyblue-fill:hover {
+    background:#14a1e1;
+    color:#fff;
+}
+
+.bmi-heading {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.bmi-para{
+    color: #666;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.side-bm-space{
+  padding-left:4.5rem;
+  /* padding-right:1.5rem; */
+  
+}
+
+@media screen and (max-width: 1500px) {
+
+.bmi-para {
+    font-size: 14px;
+}
+}
+
+
+@media screen and (max-width: 1400px) {
+.bmi-form-table > * {
+    font-size: 14px;
+}
+
+.btn-skyblue-fill {
+    font-size: 14px !important;
+    padding: 10px 40px;
+}
+}
+
+@media screen and (max-width: 1200px) {
+.bmi-result {
+    margin-top: 15px !important;
+}
+
+.side-bm-space {
+    padding-left: .5rem;
+    /* padding-right: .5rem; */
+}
+
+.bmi-form-table > * .bmi-form-table-info {
+    font-size: 10px;
+  
+}
+}
+
+@media screen and (max-width: 999px) {
+.bmi-heading {
+    font-size: 20px;
+  
+}
+
+}
+
+@media screen and (max-width: 992px) {
+.side-bm-space {
+    padding-left: 35px;
+    /* padding-left: 35px; */
+}
+}
+@media screen and (max-width: 770px) {
+
+ 
+
+  .bmi-para {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .btn-skyblue-fill {
+    padding: 8px 60px;
+}
+
+
+.side-bm-space {
+    padding-left: 25px;
+    /* padding-right: 25px; */
+}
+
+}
+  
+  
+  @media screen and (max-width: 600px) {
+ 
+  .bmi-heading {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .bmi-form {
+    padding: 15px 20px;
+   
+}
+.bmi-form-table > * {
+    flex: 50% 1;
+    max-width: calc(50% - 8px);
+}
+
+.btn-skyblue-fill {
+    padding: 8px 30px;
+}
+
+.side-bm-space {
+    padding-left: 15px;
+    /* padding-right: 15px; */
+}
+
+  }

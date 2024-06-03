@@ -1,0 +1,20 @@
+.homebtn{
+padding: 10px;
+    background-color: #2CA8E0;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    top:50%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homebtn>span{
+    color: white;
+}
+.homicon{
+    font-size: 28px;
+
+}

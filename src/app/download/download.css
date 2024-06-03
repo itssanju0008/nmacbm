@@ -1,0 +1,131 @@
+.download h3 {
+  color: #000;
+  font-family: Josefin Slab;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-underline-offset: 13px;
+  text-decoration-thickness: 2px;
+  -webkit-text-decoration-color: #d9d9d9;
+  text-decoration-color: #d9d9d9;
+  margin-bottom: 15px;
+  transition:all 0.3s linear;
+ 
+}
+
+
+.download p {
+  font-size: 16px;
+  color: #666;
+  font-weight: 300;
+  line-height: 24px;
+  font-family: "Poppins";
+}
+
+.download-card {
+  background: #18b0f4;
+  padding: 8px;
+  border-radius: 4px;
+  text-align:center;
+}
+
+.download-card img {
+  border-radius: 2px;
+}
+
+.download-card h4 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 12px;
+  font-family: poppins;
+}
+
+
+
+.download-info p {
+  font-size: 14px;
+  color: #fff;
+  font-family: poppins;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.btn-white-fill {
+  border-radius: 44px;
+  border: 2px solid #fff;
+  color: #008cbaab;
+  font-family: Poppins;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 10px 35px;
+  transition: all 0.3s linear;
+  background: #ffff;
+  opacity:0;
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+}
+
+.btn-white-fill:hover {
+  background: #fff;
+  color: #008cbaab;
+}
+
+
+.download-card:hover .btn-white-fill  {
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+  transition: all .7s;
+  opacity:1;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+.download-back-text {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+}
+
+.download-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cbaab;
+  border-radius: 4px;
+}
+
+.download-card:hover .download-overlay {
+  opacity: 1;
+}
+
+@media screen and (max-width: 770px) {
+
+  .download h3 {
+
+    font-size: 18px;
+   
+  }
+  
+  
+  .download p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}

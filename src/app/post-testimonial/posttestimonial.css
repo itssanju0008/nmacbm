@@ -1,0 +1,146 @@
+.btn-skyblue-fill {
+  border-radius: 110px;
+  border: 3px solid #18b0f4;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  transition: all 0.3s linear;
+  background: #18b0f4;
+}
+
+.btn-skyblue-fill:hover {
+  background: #14a1e1;
+  color: #fff;
+}
+
+.post-title {
+  color: #000;
+  font-family: Josefin Slab;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  background-color: #f5f5f5 !important;
+  border: var(--bs-border-width) solid #f5f5f5 !important;
+}
+
+.mbottom-4 {
+  margin-bottom: 1.8rem;
+}
+
+.oppurtunity-section {
+  background: rgba(0, 0, 0, 0) url("/all/post-test-bg.jpg") no-repeat scroll 85%
+    top / cover;
+  color: #fff;
+  height: auto;
+  padding: 50px;
+  position: relative;
+  border-radius: 8px 0 0 8px;
+}
+
+.oppurtunity-text-section h2 {
+  color: #fff;
+  font-family: Josefin Slab;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.oppurtunity-text-section p {
+  color: #fff;
+  font-family: poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.post-form {
+  background: #fff;
+  padding: 0 40px 40px 40px;
+}
+
+.post-test-container {
+  background-color: #38a2d4;
+  position: relative;
+  z-index: 9;
+  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 8px 0 0 8px;
+}
+
+.text-para {
+  font-size: 14px;
+  color: #666;
+  line-height: 26px;
+  font-family: poppins;
+}
+
+.rating-icon {
+  font-size: 24px;
+  margin-right: 5px;
+  color: #9a9a9a;
+}
+
+@media screen and (max-width: 1180px) {
+
+.oppurtunity-text-section h2 {
+  font-size: 28px;
+  line-height: 30px;
+}
+}
+
+@media screen and (max-width: 992px) {
+  .post-form {
+    padding: 40px;
+  }
+
+  .post-test-container {
+    border-radius: 8px 8px 0 0;
+  }
+  .oppurtunity-section {
+    border-radius: 8px 8px 0 0;
+  }
+}
+@media screen and (max-width: 770px) {
+  .rating-icon {
+    line-height: 26px;
+  }
+
+  .oppurtunity-section {
+    padding: 20px;
+}
+
+.oppurtunity-text-section h2 {
+  font-size: 24px;
+  line-height: 30px;
+}
+.oppurtunity-text-section p {
+  font-size: 14px;
+  line-height: 26px;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+.post-form {
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 4px;
+}
+.oppurtunity-section , .post-test-container {
+  border-radius: 8px;
+}
+}

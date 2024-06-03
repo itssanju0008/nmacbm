@@ -1,0 +1,11 @@
+.checkout-img img {
+    box-shadow: 0 15px 20px 0 rgba(0,0,0,.1);
+    margin-bottom: 45px;
+}
+
+.checkout-form{
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 15px 20px 0 rgba(0,0,0,.1);
+    padding: 0 20px 20px 20px;
+}

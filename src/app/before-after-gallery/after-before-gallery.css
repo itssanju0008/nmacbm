@@ -1,0 +1,30 @@
+.after-before-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+ @media screen and  (max-width:1350px){
+    .after-before-gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    } 
+}
+
+
+ @media screen and  (max-width:1200px){
+    .after-before-gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    } 
+}
+
+ @media screen and  (max-width:1000px){
+    .after-before-gallery {
+        grid-template-columns: 1fr 1fr;
+    } 
+}
+
+ @media screen and  (max-width:500px){
+    .after-before-gallery {
+        grid-template-columns: 1fr;
+    } 
+}

@@ -1,0 +1,124 @@
+.accordion-item {
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  .accordion-title {
+      padding: 14px;
+      cursor: pointer;
+      background-color: #fff;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      transition: all 0.3s linear;
+      display: flex;
+      justify-content: space-between;
+      font-family: poppins;
+      font-weight: 500;
+      align-items:center;
+      font-size:16px;
+  }
+  
+  .accordion-content {
+      padding: 10px;
+      font-size: 14px;
+      color: #666;
+      font-family: poppins;
+      font-weight: 300;
+      line-height: 24px;
+  }
+
+  .accordion-item.open .accordion-content {
+    display: block;
+}
+
+  
+  .bg-dusky{
+    background:#fff6f6;
+  }
+
+  .btn-skyblue {
+    border-radius: 110px;
+    border: 3px solid #18b0f4;
+    color: #18b0f4;
+    font-family: Poppins;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 12px 60px;
+    transition: all 0.3s linear;
+}
+
+.btn-skyblue:hover {
+    color: #fff;
+    background:#18b0f4;
+}
+
+  .accordion-title svg {
+    color: #2ca8e0;
+}
+
+  .faq-heading h3 {
+    color: #333;
+    font-family: poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.accordion-content {
+  background: #ffffff;
+}
+
+@media screen and (max-width: 1500px) {
+
+
+}
+
+@media screen and (max-width: 1500px) {
+  .accordion-title {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .faq-heading h3 {
+    font-size: 20px;
+  }
+
+  .accordion-title {
+    font-size: 14px;
+  }
+  
+  .btn-skyblue {
+    font-size: 14px !important;
+    padding: 8px 40px;
+  }
+
+  }
+
+@media screen and (max-width: 770px) {
+
+.accordion-title {
+  font-size: 14px;
+}
+
+.btn-skyblue {
+  font-size: 14px !important;
+  padding: 8px 40px;
+}
+}
+
+@media screen and (max-width: 600px) {
+ 
+
+  .accordion-title {
+    font-size: 14px;
+  }
+  }

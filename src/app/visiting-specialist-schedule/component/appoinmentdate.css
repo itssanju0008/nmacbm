@@ -1,0 +1,158 @@
+.date__widget {
+    background: #fff6f6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.date__widget h4 {
+    font-size: 24px;
+    position: relative;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+.appoinment-date {
+    font-size: 18px;
+    color: #333;
+    font-family: 'Poppins';
+    line-height: 24px;
+}
+
+
+
+.date__widget h4::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 83px;
+    height: 4px;
+    content: "";
+    background-color: #2ca9e0;
+}
+
+.date__widget ul li {
+    list-style: none;
+}
+.date__widget ul li {
+    font-size: 15px;
+    line-height: 2;
+    color: #666;
+}
+
+.date__widget ul li span {
+    display: inline-block;
+}
+
+.date__widget ul li span:last-child::before {
+    width: 68px;
+    height: 100%;
+    content: "- - -";
+    left: -205px;
+    top: 50%;
+    position: absolute;
+    font-size: 16px;
+    color: #2ca9e0de;
+    transform: translateY(-50%);
+}
+
+.date__widget ul li span:last-child {
+    float: right;
+    color: #2ca9e0;
+    font-weight: 600;
+    min-width: 105px;
+    position: relative;
+}
+
+
+
+
+@media screen and (max-width: 1250px) {
+ 
+    .date__widget {
+      padding: 25px;
+    }
+
+    .date__widget ul li {
+        font-size: 14px;
+    }
+    
+  
+
+}
+
+@media screen and (max-width: 992px) {
+    .date__widget ul li span:last-child::before {
+        content: "- - -";
+        left: -350px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .date__widget ul li span:last-child::before {
+        content: "- - -";
+        left: -270px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .appearance-content h3 {
+        font-size: 30px;
+        line-height: 50px;
+        text-underline-offset: 15px;
+    }
+
+    .appearance-content p {
+        font-size: 18px;
+    }
+
+    .date__widget {
+        padding: 20px;
+    }
+    
+    .date__widget ul li span:last-child::before {
+        left: -280px;
+    }
+    
+    .date__widget h4 {
+        font-size: 18px;
+    }
+    .date__widget p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    }
+
+    @media screen and (max-width: 768px) {
+        .date__widget ul li span:last-child::before {
+            left: -235px;
+        }
+       
+    }
+
+
+ @media screen and (max-width: 600px) {
+
+    .black-btn {
+        font-size: 14px;
+        padding: 12px 30px;
+    }
+
+    .date__widget ul li {
+        font-size: 14px;
+    }
+
+    .date__widget ul li span:last-child::before {
+        width: 50px;
+        content: "- - -";
+        left: -43px;
+        top: 60%;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .date__widget ul li {
+        font-size: 12px;
+    }
+}
